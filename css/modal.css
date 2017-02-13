@@ -1,0 +1,19 @@
+*{margin: 0;padding: 0;}
+body{font-family: Arial;}
+h4{margin: 10px 0;}
+.modal{position:relative;font-family: Arial;background-color: deepskyblue;padding: 10px 5px;display: inline-block;margin: 10px;border-radius: 5px;color: white;cursor: pointer;z-index: 10;}
+.save:hover,.modal:hover{background-color: rgb(40,96,144);transition: all 0.3s;}
+#look{position: absolute;overflow-y: auto;width: 100%;top: 0;transition: 0.3s;}
+.cover{width:100%;background-color: rgba(0,0,0,.5);z-index: 10;position: fixed;height: 0;top: 0;bottom:0;right: 0;left: 0;overflow-x: hidden;overflow-y: auto;}
+.show{border: 1px solid black;width: 598px;background-color: white;position:absolute;z-index: 99;border-radius: 10px;left: 50%;top:50%;transform:translateY(-45%) translateX(-50%);display: none;}
+.close{float: right;margin: 10px;color: darkgray;cursor: pointer;}
+.modal_body p{margin-bottom: 1%;}
+.foot{float: right;margin: 10px 0;}
+.foot div{float: left;padding: 2px 5px;margin-left: 10px;margin-right: 10px;}
+.save{color: white;background-color: deepskyblue;border-radius: 5px;cursor: pointer;}
+.close_button{cursor: pointer;border: 0.5px solid darkgray;border-radius: 5px;}
+.close_button:hover{background-color: rgb(230,230,230);transition: all 0.3s;}
+.modal_title{border-bottom: 1px solid lightgrey;padding: 10px 15px;margin-bottom: 1%;}
+.modal_body{padding:0 15px;}
+.last{border-bottom: 1px solid lightgrey;padding-bottom: 30px;}
+.test{position: relative;}
